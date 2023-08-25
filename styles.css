@@ -91,3 +91,22 @@ h1 {
   .button-30.equal {
     flex: 2.5;
   }
+
+  .display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .display > div {
+    font-family: monospace;
+  }
+
+  .display > .final {
+    font-size: 25px;
+  }
+
+  .display > .current {
+    font-size: 15px;
+  }
